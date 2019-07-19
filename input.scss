@@ -1,5 +1,187 @@
+// <----- Variables ------>
 
-.dog-header {
-  width: 20px;
-  height: 20px;
+$header-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$section-padding: 60px 400px 100px;
+
+$grey: #404040;
+$pink: #bb1542;
+$darker-pink: #8c0e30;
+$darker-red: #b54847;
+$red: #eb5f5d;
+$darker-yellow: #d19d60;
+$yellow: #fabc74;
+$blue: #239f95;
+
+// <----- Stuff ------>
+
+body {
+  color: white;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+section {
+  padding: $section-padding;
+}
+
+// <----- Sections ----->
+
+ .header {
+   background: $pink;
+   height: 100%;
+
+   .circle-bg {
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 250px;
+     height: 250px;
+     border-radius: 50%;
+   }
+
+   .dog-header {
+     margin-top: 25%;
+     width: 60%;
+   }
+ }
+
+.main-content {
+  background: $red;
+  margin: 0;
+
+  .circle-bg {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: $yellow;
+    float: left;
+
+  }
+
+  .dog1, .like, .walk-dog {
+    margin-top: 25%;
+    width: 60%;
+  }
+
+  .reason-1, .reason-3 {
+    text-align: left;
+    padding: 40px 0;
+
+    .circle-bg {
+      margin-right: 40px;
+
+      .dog1, .walk-dog {
+        margin-left: 40px;
+      }
+    }
+  }
+
+  .reason-2 {
+    text-align: right;
+    padding: 40px 0;
+
+    .circle-bg {
+      float: right;
+      margin-left: 40px;
+
+      .like {
+        margin-right: 40px;
+      }
+    }
+  }
+}
+
+.contact {
+  background: $yellow;
+
+  p {
+    padding-bottom: 20px;
+  }
+}
+
+.footer {
+  background: $blue;
+
+}
+
+// <----- Form ------>
+
+form {
+  display: flex;
+  justify-content: center;
+
+  .container {
+    width: 100%;
+    padding: 0 20%;
+  }
+  label {
+    width: 100%;
+    text-align: left;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    color: grey;
+  }
+
+  textarea {
+    height: 200px;
+  }
+
+  .send-btn {
+    margin: 5% 0;
+    width: 40%;
+    height: 10%;
+    border: none;
+    border-radius: 10px;
+    font-family: $header-font;
+    font-size: 1rem;
+  }
+}
+
+// <----- Headers ------>
+
+h1 {
+  font-family: $header-font;
+  font-size: 4rem;
+
+}
+
+h2 {
+  font-family: $header-font;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: $header-font;
+  font-size: 2rem;
+}
+
+h4 {
+  font-family: $header-font;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 10px;
+}
+// <----- Texts ------>
+
+p {
+  font-family: $header-font;
+}
+
+// <----- Shape ------>
+
+.circle-bg {
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }

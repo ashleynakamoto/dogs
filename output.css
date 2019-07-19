@@ -1,6 +1,145 @@
-.dog-header {
-  width: 20px;
-  height: 20px;
+body {
+  color: white;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+section {
+  padding: 60px 400px 100px;
+}
+
+.header {
+  background: #bb1542;
+  height: 100%;
+}
+.header .circle-bg {
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.header .dog-header {
+  margin-top: 25%;
+  width: 60%;
+}
+
+.main-content {
+  background: #eb5f5d;
+  margin: 0;
+}
+.main-content .circle-bg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #fabc74;
+  float: left;
+}
+.main-content .dog1, .main-content .like, .main-content .walk-dog {
+  margin-top: 25%;
+  width: 60%;
+}
+.main-content .reason-1, .main-content .reason-3 {
+  text-align: left;
+  padding: 40px 0;
+}
+.main-content .reason-1 .circle-bg, .main-content .reason-3 .circle-bg {
+  margin-right: 40px;
+}
+.main-content .reason-1 .circle-bg .dog1, .main-content .reason-1 .circle-bg .walk-dog, .main-content .reason-3 .circle-bg .dog1, .main-content .reason-3 .circle-bg .walk-dog {
+  margin-left: 40px;
+}
+.main-content .reason-2 {
+  text-align: right;
+  padding: 40px 0;
+}
+.main-content .reason-2 .circle-bg {
+  float: right;
+  margin-left: 40px;
+}
+.main-content .reason-2 .circle-bg .like {
+  margin-right: 40px;
+}
+
+.contact {
+  background: #fabc74;
+}
+.contact p {
+  padding-bottom: 20px;
+}
+
+.footer {
+  background: #239f95;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+form .container {
+  width: 100%;
+  padding: 0 20%;
+}
+form label {
+  width: 100%;
+  text-align: left;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  color: grey;
+}
+form textarea {
+  height: 200px;
+}
+form .send-btn {
+  margin: 5% 0;
+  width: 40%;
+  height: 10%;
+  border: none;
+  border-radius: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 4rem;
+}
+
+h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+}
+
+h4 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.circle-bg {
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 /*# sourceMappingURL=output.css.map */
