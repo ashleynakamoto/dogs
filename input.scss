@@ -26,6 +26,30 @@ section {
   padding: $section-padding;
 }
 
+// <----- Nav Bar ----->
+
+.nav-bar {
+  background: $blue;
+  padding: 20px 400px;
+  display: flex;
+  justify-content: space-between;
+  align-content: baseline;
+
+  .dog-header {
+    width: 100px;
+  }
+
+  .nav-link {
+    padding: 20px;
+    align-content: baseline;
+    align-self: baseline;
+  }
+
+  .right  {
+    align-self: center;
+  }
+}
+
 // <----- Sections ----->
 
  .header {
@@ -43,9 +67,15 @@ section {
      border-radius: 50%;
    }
 
-   .dog-header {
-     margin-top: 25%;
+   .header-img {
+     text-align: center;
      width: 60%;
+     padding: 0;
+     margin: 0 auto;
+   }
+
+   .dog-header {
+     width: 25%;
    }
  }
 
@@ -105,7 +135,14 @@ section {
 
 .footer {
   background: $blue;
+  padding: 100px 120px 10px;
 
+  .footer-link {
+    padding: 20px;
+  }
+
+  p {
+  }
 }
 
 // <----- Form ------>
@@ -146,6 +183,22 @@ form {
   }
 }
 
+.adopt-btn {
+    margin: 20px 0;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-family: $header-font;
+    font-size: 1rem;
+    font-weight: 800;
+    background: $darker-pink;
+    color: white;
+    border: 2px solid #8c1636;
+    box-shadow: .5px .5px 5px .5px #8c1636;
+
+}
+
 // <----- Headers ------>
 
 h1 {
@@ -174,6 +227,14 @@ h4 {
 
 p {
   font-family: $header-font;
+}
+
+a {
+  font-family: $header-font;
+  font-size: normal;
+  color: white;
+  font-weight: 800;
+  text-decoration: none;
 }
 
 // <----- Shape ------>
